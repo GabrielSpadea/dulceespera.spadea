@@ -383,5 +383,23 @@ p {color: rgb(247, 199, 144);
         justify-content: center;
     }  
 }
+ /* gradiente / transformaciones */
+.contenedorGaleria{
+    background-image: linear-gradient( rgb(233, 122, 122),rgb(153, 46, 46));
+}
+.contenedor{
+    background-image: linear-gradient( rgb(233, 122, 122),rgb(153, 46, 46));
+}
+.contenedorEstampas{
+    background-image: linear-gradient( rgb(233, 122, 122),rgb(153, 46, 46));
+}
+.gridImagenes{ transform: translate(400px);    
+    
+}
+.navegacion {transform: translate(20px)}
+.navegacion{
+    background-image: linear-gradient( rgb(174, 48, 48),rgb(239, 126, 126));
+}
 
-     
+
+
