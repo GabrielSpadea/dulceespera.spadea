@@ -382,7 +382,7 @@ p {color: rgb(247, 199, 144);
 
 .contenedor{
    background-image: linear-gradient( rgb(233, 122, 122),rgb(153, 46, 46));
-}*/
+}
 .contenedorEstampas{
    background-image: linear-gradient( rgb(233, 122, 122),rgb(153, 46, 46));
 }
@@ -410,7 +410,9 @@ p {color: rgb(247, 199, 144);
 a:hover{
    background-color: rgb(217, 111, 111); font-weight: bold;
 }
-
+.imagenes:hover{
+   scale: 1.5;
+}
 
 
 
