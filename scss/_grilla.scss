@@ -243,4 +243,110 @@
     background-color: rgb(241, 146, 14);
     grid-area: promo;
     gap: 10px;
+}.productosmama {display: grid;
+   grid-template-columns: 30% 70%;
+   background-color: rgb(206, 212, 216) ;
+   color: rgb(88, 70, 49); 
 }
+.productosbebe {display: grid;
+   grid-template-columns: 30% 70%;
+   background-color: rgb(206, 212, 216);
+   color: rgb(88, 70, 49)
+}
+.contenedorNosotros {
+   display: grid;
+   grid-template-columns: auto;
+   justify-content: center;
+   align-content: center;
+   background-color: rgb(206, 212, 216);
+}
+.contenedor {
+   display: grid;
+   grid-template-columns: auto;
+   justify-content: center;
+   align-content: center;
+   background-color: rgb(118, 71, 71);
+}
+.contenedorTienda {background-color: rgb(206, 212, 216);
+}
+.contenedorEstampas {background-color: rgb(206, 212, 216);
+}
+.contenedorGaleria {background-color: rgb(206, 212, 216);
+}
+.contenedorContacto {background-color: rgb(206, 212, 216);
+}
+.descripcion {
+   display: grid;
+   grid-column: 1 / 2 ; border: 3px solid rgb(178, 184, 187);
+}
+.descripcion2 {
+   display: grid;
+   grid-column: 1;
+}
+.header {grid-template-areas: l;
+}
+.main{display: grid;
+   /* background-color: rgb(88, 70, 49); */
+   grid-template-columns: 100%;
+}
+.promo {display: grid;
+   background-color: rgb(241, 146, 14);
+   grid-area: promo;
+   gap: 10px;
+}
+.promo > div{border: 5px solid rgb(15, 3, 3);
+   color: rgb(21, 20, 20)
+}.productosmama {display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: rgb(206, 212, 216) ;
+    color: rgb(88, 70, 49); 
+ }
+ .productosbebe {display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: rgb(206, 212, 216);
+    color: rgb(88, 70, 49)
+ }
+ .contenedorNosotros {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(206, 212, 216);
+ }
+ .contenedor {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(118, 71, 71);
+ }
+ .contenedorTienda {background-color: rgb(206, 212, 216);
+ }
+ .contenedorEstampas {background-color: rgb(206, 212, 216);
+ }
+ .contenedorGaleria {background-color: rgb(206, 212, 216);
+ }
+ .contenedorContacto {background-color: rgb(206, 212, 216);
+ }
+ .descripcion {
+    display: grid;
+    grid-column: 1 / 2 ; border: 3px solid rgb(178, 184, 187);
+ }
+ .descripcion2 {
+    display: grid;
+    grid-column: 1;
+ }
+ .header {grid-template-areas: l;
+ }
+ .main{display: grid;
+    /* background-color: rgb(88, 70, 49); */
+    grid-template-columns: 100%;
+ }
+ .promo {display: grid;
+    background-color: rgb(241, 146, 14);
+    grid-area: promo;
+    gap: 10px;
+ }
+ .promo > div{border: 5px solid rgb(15, 3, 3);
+    color: rgb(21, 20, 20)
+ }
