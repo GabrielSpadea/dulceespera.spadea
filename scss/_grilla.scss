@@ -350,3 +350,6 @@
  .promo > div{border: 5px solid rgb(15, 3, 3);
     color: rgb(21, 20, 20)
  }
+ 
+ .contenedor{@include 
+    display($direction, $justify, $align) }
